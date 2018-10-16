@@ -7,59 +7,37 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-## About Laravel
+## Simple Blog Using Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
+<p align="center"><img src="https://kawankoding.com/assets/images/kawankoding-logo.png" width="300"></p>
+Sebelumnya saya ucapkan terimakasih banyak untuk [kawankoding.com](https://kawankoding.com) yang telah baik hati dalam share ilmu mengenai Laravel. Simple Blog Using Laravel ini adalah semacam aplikasi blog simple untuk memudahkan para web developer yang ingin belajar mengenai fungsi fungsi framework Laravel ini.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Demo
+- [Demo](https://fontawesome.com/v4.7.0/icons/).
 
+## Include
+
+Pada tutorial yang kawankoding.com ajarkan ke pada saya, saya sedikit menambahkan plugin untuk mempercantik aplikasi blog simple tersebut yaitu diantaranya:
+- [Font Awesome 4.7](https://fontawesome.com/v4.7.0/icons/).
+- [PACE Progress Bar](https://github.hubspot.com/pace/docs/welcome/).
+
+## Tahapan Belajar
+- [Pengenalan](https://www.youtube.com/watch?v=geIv2xHW48A&list=PLEgI20pG1Dqz6wCJUT8VKYCxIjtBhBxi8).
+- [Install Laravel](https://www.youtube.com/watch?v=PrSP9EHXJJo&list=PLEgI20pG1Dqz6wCJUT8VKYCxIjtBhBxi8&index=2).
+- [Setup Table & Auth](https://www.youtube.com/watch?v=dSMBQ7gWpXg&index=3&list=PLEgI20pG1Dqz6wCJUT8VKYCxIjtBhBxi8).
+- [Create Post](https://www.youtube.com/watch?v=D78CYMoqfAA&list=PLEgI20pG1Dqz6wCJUT8VKYCxIjtBhBxi8&index=4).
+- [Read Post](https://www.youtube.com/watch?v=K4yAHc_Zcx0&list=PLEgI20pG1Dqz6wCJUT8VKYCxIjtBhBxi8&index=5).
+- [Update Post](https://www.youtube.com/watch?v=r_CGWZSDVfg&index=6&list=PLEgI20pG1Dqz6wCJUT8VKYCxIjtBhBxi8).
+- [Delete Post](https://www.youtube.com/watch?v=aS5YDoojkV8&index=7&list=PLEgI20pG1Dqz6wCJUT8VKYCxIjtBhBxi8).
+- [Flash Message](https://www.youtube.com/watch?v=_SMzOIJ_Ao8&index=11&list=PLEgI20pG1Dqz6wCJUT8VKYCxIjtBhBxi8).
+- [Category Seeder](https://www.youtube.com/watch?v=YwQsimRrohk&list=PLEgI20pG1Dqz6wCJUT8VKYCxIjtBhBxi8&index=8).
+- [Selected Dropdown](https://www.youtube.com/watch?v=UD889BdKWK4&list=PLEgI20pG1Dqz6wCJUT8VKYCxIjtBhBxi8&index=9).
+- [Detail Post](https://www.youtube.com/watch?v=SL2vjRDhaoI&list=PLEgI20pG1Dqz6wCJUT8VKYCxIjtBhBxi8&index=10).
+- [Add Comment](https://www.youtube.com/watch?v=83AsMIb0_3A&index=12&list=PLEgI20pG1Dqz6wCJUT8VKYCxIjtBhBxi8).
+- [Show Comment](https://www.youtube.com/watch?v=qB_XRwTCcPo&index=13&list=PLEgI20pG1Dqz6wCJUT8VKYCxIjtBhBxi8).
+- [Validasi Form](https://www.youtube.com/watch?v=NTJH7vT9R7A&index=14&list=PLEgI20pG1Dqz6wCJUT8VKYCxIjtBhBxi8)
 Laravel is accessible, yet powerful, providing tools needed for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of any modern web application framework, making it a breeze to get started learning the framework.
-
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 1100 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell):
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The Laravel framework is open-sourced software licensed under the [MIT license](https://github.com/aacassandra/Simple-Blog-Using-Laravel-5.7/blob/master/LICENSE).
