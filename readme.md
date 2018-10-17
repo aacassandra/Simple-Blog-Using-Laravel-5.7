@@ -9,7 +9,7 @@
 
 ## Simple Blog Using Laravel
 
-Sebelumnya saya ucapkan terimakasih banyak untuk [kawankoding.com](https://kawankoding.com) yang telah baik hati dalam share ilmu mengenai Laravel. Simple Blog Using Laravel ini adalah semacam aplikasi blog simple untuk memudahkan para web developer yang ingin belajar mengenai fungsi fungsi framework Laravel ini.
+Sebelumnya saya ucapkan terimakasih banyak kepada [kawankoding.com](https://kawankoding.com) yang telah baik hati dalam share ilmu mengenai Laravel. Simple Blog Using Laravel ini adalah semacam aplikasi blog simple untuk memudahkan para web developer yang ingin belajar mengenai fungsi fungsi framework Laravel ini.
 
 ## Demo
 - [Demo](https://fontawesome.com/v4.7.0/icons/).
@@ -35,9 +35,7 @@ Pada tutorial yang kawankoding.com ajarkan ke pada saya, saya sedikit menambahka
 - [Detail Post](https://www.youtube.com/watch?v=SL2vjRDhaoI&list=PLEgI20pG1Dqz6wCJUT8VKYCxIjtBhBxi8&index=10).
 - [Add Comment](https://www.youtube.com/watch?v=83AsMIb0_3A&index=12&list=PLEgI20pG1Dqz6wCJUT8VKYCxIjtBhBxi8).
 - [Show Comment](https://www.youtube.com/watch?v=qB_XRwTCcPo&index=13&list=PLEgI20pG1Dqz6wCJUT8VKYCxIjtBhBxi8).
-- [Validasi Form](https://www.youtube.com/watch?v=NTJH7vT9R7A&index=14&list=PLEgI20pG1Dqz6wCJUT8VKYCxIjtBhBxi8)
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications.
-
+- [Validasi Form](https://www.youtube.com/watch?v=NTJH7vT9R7A&index=14&list=PLEgI20pG1Dqz6wCJUT8VKYCxIjtBhBxi8).
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://github.com/aacassandra/Simple-Blog-Using-Laravel-5.7/blob/master/LICENSE).
+<b>Simple Blog Using Laravel</b> adalah aplikasi pembelajaran yang berlisensi -> [MIT license](https://github.com/aacassandra/Simple-Blog-Using-Laravel-5.7/blob/master/LICENSE).
