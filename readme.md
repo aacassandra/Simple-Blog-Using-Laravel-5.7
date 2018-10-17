@@ -1,4 +1,4 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+<p align="center"><img src="https://kawankoding.com/assets/images/kawankoding-logo.png" width="300"></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
@@ -9,7 +9,6 @@
 
 ## Simple Blog Using Laravel
 
-<p align="center"><img src="https://kawankoding.com/assets/images/kawankoding-logo.png" width="300"></p>
 Sebelumnya saya ucapkan terimakasih banyak untuk [kawankoding.com](https://kawankoding.com) yang telah baik hati dalam share ilmu mengenai Laravel. Simple Blog Using Laravel ini adalah semacam aplikasi blog simple untuk memudahkan para web developer yang ingin belajar mengenai fungsi fungsi framework Laravel ini.
 
 ## Demo
@@ -20,6 +19,7 @@ Sebelumnya saya ucapkan terimakasih banyak untuk [kawankoding.com](https://kawan
 Pada tutorial yang kawankoding.com ajarkan ke pada saya, saya sedikit menambahkan plugin untuk mempercantik aplikasi blog simple tersebut yaitu diantaranya:
 - [Font Awesome 4.7](https://fontawesome.com/v4.7.0/icons/).
 - [PACE Progress Bar](https://github.hubspot.com/pace/docs/welcome/).
+- [Sweet Alert 2](https://sweetalert2.github.io/).
 
 ## Tahapan Belajar
 - [Pengenalan](https://www.youtube.com/watch?v=geIv2xHW48A&list=PLEgI20pG1Dqz6wCJUT8VKYCxIjtBhBxi8).
