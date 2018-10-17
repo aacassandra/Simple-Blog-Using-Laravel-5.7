@@ -7,9 +7,15 @@ use App\Post;
 use App\Category;
 class PostController extends Controller
 {
+    Public function home()
+    {
+      return view('post.home');
+    }
+
     Public function index()
     {
-      $posts = Post::all();
+      $posts = Post::orderBy('id', 'desc')->get();
+      //Optional style : $posts = Post::all()->sortByDesc("id")
       return view('post.index',compact('posts'));
     }
 
@@ -56,14 +62,7 @@ class PostController extends Controller
     }
 
     //update data with model binding by Laravel Future
-
     Public function edit(Post $post)
-    {
-      $categories = Category::all();
-      return view('post.edit',compact('post','categories'));
-    }
-
-    Public function edit_onButton(Post $post)
     {
       $categories = Category::all();
       return view('post.edit',compact('post','categories'));
@@ -88,6 +87,15 @@ class PostController extends Controller
     {
       $post->delete();
       return redirect()->route('post.index')->with('danger','Post successfully remove');
+    }
+
+    Public function destrox()
+    {
+      $id = request('_id');
+      $post = Post::find($id);
+      $post->delete();
+      $data['status'] = 'success';
+      echo json_encode($data);
     }
 
     Public function show(Post $post){

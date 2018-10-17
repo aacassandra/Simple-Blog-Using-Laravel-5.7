@@ -11,16 +11,17 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
-    <script src="{{ asset('js/pace.min.js') }}" defer></script>
-
+    <script src="{{ asset('js/global.configurator.js') }}" defer></script>
+    <script src="{{ asset('vendor/pace/js/pace.min.js') }}" defer></script>
+    <script src="{{ asset('vendor/sweetalert/js/sweetalert2.min.js') }}" defer></script>
     <!-- Fonts -->
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/pace.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/font-awesome.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('vendor/pace/css/pace.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('vendor/fontawesome/css/font-awesome.min.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
@@ -53,7 +54,10 @@
                             </li>
                         @else
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('post.index') }}"><i class="fa fa-home"></i> {{ __('Home') }}</a>
+                                <a class="nav-link" href="{{ route('home') }}"><i class="fa fa-home"></i> {{ __('Home') }}</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('post.index') }}"><i class="fa fa-comments"></i> {{ __('Discuss') }}</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('post.create') }}"><i class="fa fa-pencil-square-o"></i> {{ __('Write a Blog') }}</a>

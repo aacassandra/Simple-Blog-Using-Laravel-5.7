@@ -18,6 +18,7 @@ class PostCommentController extends Controller
       return redirect()->back();
     }
 
+    //Style 2
     Public function store(Request $request, Post $post)
     {
       $this->validate(request(),[
@@ -31,7 +32,7 @@ class PostCommentController extends Controller
       return redirect()->back();
     }
 
-    Public function edit_onButton(Post $post, Comment $comment)
+    Public function edit(Post $post, Comment $comment)
     {
       return view('post.comment.edit',compact('post','comment'));
     }
@@ -52,5 +53,14 @@ class PostCommentController extends Controller
     {
       $comment->delete();
       return redirect()->route('post.show',$post)->with('danger','Comment successfully remove');
+    }
+
+    Public function destrox()
+    {
+      $id = request('_id');
+      $comment = Comment::find($id);
+      $comment->delete();
+      $data['status'] = 'success';
+      echo json_encode($data);
     }
 }

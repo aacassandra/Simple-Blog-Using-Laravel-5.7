@@ -20,8 +20,11 @@ Pada tutorial yang kawankoding.com ajarkan ke pada saya, saya sedikit menambahka
 - [Font Awesome 4.7](https://fontawesome.com/v4.7.0/icons/).
 - [PACE Progress Bar](https://github.hubspot.com/pace/docs/welcome/).
 - [Sweet Alert 2](https://sweetalert2.github.io/).
+- Remove Posting / Comment by Ajax
 
 ## Tahapan Belajar
+
+Alangkah lebih baiknya Anda mempelajari dari awal step by step yang di ajarkan oleh kawankoding.com, saya rangkum list nya menjadi satu yaitu sebagai berikut: 
 - [Pengenalan](https://www.youtube.com/watch?v=geIv2xHW48A&list=PLEgI20pG1Dqz6wCJUT8VKYCxIjtBhBxi8).
 - [Install Laravel](https://www.youtube.com/watch?v=PrSP9EHXJJo&list=PLEgI20pG1Dqz6wCJUT8VKYCxIjtBhBxi8&index=2).
 - [Setup Table & Auth](https://www.youtube.com/watch?v=dSMBQ7gWpXg&index=3&list=PLEgI20pG1Dqz6wCJUT8VKYCxIjtBhBxi8).

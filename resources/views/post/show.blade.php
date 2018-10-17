@@ -24,14 +24,15 @@
                 {{ $comment->user->name }} - {{ $comment->created_at->diffForHumans() }}
                 @if ($comment->user_id == auth()->id())
                   <div class="btn-group float-right" role="group">
-                    <form action="{{ route('post.comment.destroy',[$post,$comment]) }}" method="post">
+                    <form action="" id="btn-comment-delete" onsubmit="return comment_destrox()">
                       {{ csrf_field() }}
                       {{ method_field('DELETE') }}
+                      <input type="hidden" name="_id" value="{{ $comment->id }}">
                       <button type="submit" class="btn btn-sm btn-danger">Remove</button>
                     </form>
                   </div>
                   <div class="btn-group mr-2 float-right" role="group">
-                    <form action="{{ route('post.comment.edit_onButton',[$post,$comment]) }}" method="post">
+                    <form action="{{ route('post.comment.edit',[$post,$comment]) }}" method="post">
                       {{ csrf_field() }}
                       <button type="submit" class="btn btn-sm btn-success">Edit</button>
                     </form>
